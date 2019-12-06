@@ -1,36 +1,61 @@
-body
+/* This CSS section addresses the "body" type */
+body {
   font-size: 14px;
 }
 
+
+/* This CSS section addresses the "nav" type */
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 
+/* This CSS section addresses the "section" type */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+
+/* This CSS section addresses all the "h1" types */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+
+/* This CSS section addresses the "example" class and "h3" type */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align:center;
 }
 
+
+
+/* This CSS section addresses all the "h3" types */
 h3 {
   font-size: 1.3em;
 }
 
+
+/* This CSS section addresses all the "element" classes */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+
+
+/* I have added this new "class" to alter the
+background-color of the last three <div> elements in index.html */
+
+.elementalternate {
+  background-color: cyan;
+
+}
