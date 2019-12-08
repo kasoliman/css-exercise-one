@@ -6,7 +6,7 @@ body {
 
 /* This CSS section addresses the "nav" type */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -57,5 +57,8 @@ background-color of the last three <div> elements in index.html */
 
 .elementalternate {
   background-color: cyan;
+  height: 100px;
+  margin:auto: 10px 0;
+  width: 100%;
 
 }
